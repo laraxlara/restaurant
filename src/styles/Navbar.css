@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.navbar-container {
+    font-family: 'Playfair Display', serif;
+    z-index: 1000;
+    overflow: hidden;
+    scroll-snap-align: start;
+    overflow: hidden;
+}
+
+.home-menu {
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+.contact-link {
+    border-bottom: solid white 1px;
+    font-size: 1.2rem;
+    padding-bottom: .6rem;
+}
+
+.menu-link {
+    font-size: 2rem;
+    z-index: 2000;
+}
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 3000;
+    overflow: hidden;
+}
+
+.nav-list {
+    width: 600px;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nav-list a {
+    list-style: none;
+    margin: 25px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+    position: relative;
+    padding: .4rem 0;
+}
+
+.nav-link::before,
+.nav-link::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.nav-link::after {
+    bottom: 0;
+    transform-origin: right;
+}
+
+.nav-link::before {
+    top: 0;
+    transform-origin: left;
+}
+
+.nav-link:hover::before,
+.nav-link:hover::after {
+    transform: scaleX(1);
+}
+
+.nav-menu.active {
+    right: 0;
+    overflow: hidden;
+    transition: 350ms;
+}
+
+.menu-close {
+    position: absolute;
+    font-size: 2rem;
+    top: 15px;
+    right: 65px;
+    color: white;
+}

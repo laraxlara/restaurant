@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.contact-container {
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.contact-wrapper {
+    height: 100vh;
+    padding-top: 80px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-one,
+.contact-three {
+    border-right: 2px white solid;
+}
+
+.contact-one,
+.contact-two,
+.contact-three,
+.contact-four {
+    width: 50%;
+    height: 250px;
+    background-color: black;
+}
+
+
+
+.contact-one:hover {
+    background-image: url('../images/webdesign.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(60%);
+    transition: 2s ease;
+
+}
+
+.contact-two:hover {
+    background-image: url('../images/email.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(60%);
+    transition: 2s ease;
+}
+
+.contact-three:hover {
+    background-image: url('../images/facebook.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(60%);
+    transition: 2s ease;
+}
+
+.contact-four:hover {
+    background-image: url('../images/linkdin.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(60%);
+    transition: 2s ease;
+}
+
+.contact-one a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.contact-two a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.contacts a:hover {
+    font-size: 2.2rem;
+    transition: 2s ease-in-out;
+} 
+
+
+.contact-three a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+    font-size: 2rem;
+    color: white;
+}
+
+
+.contact-four a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+    font-size: 2rem;
+    color: white;
+}
+.contacts-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contact {
+    width: 50%;
+}

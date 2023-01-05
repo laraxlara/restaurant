@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+.meal-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.image-container {
+    width: 60%;
+    height: 150px;
+    display: block;
+    align-self: flex-start;
+    overflow: hidden;
+    border-radius: 2rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-container img:hover {
+    transform: scale(110%);
+    transition-timing-function: ease-out;
+    transition: 0.25s;
+}
+
+.meal-info {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.meal-info h3 {
+    font-family: 'Sevillana', cursive;
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(162, 155, 96);
+}
+
+.meal-info .meal-description {
+    font-size: .9rem;
+    color: rgb(100, 100, 100);
+}
+
+.meal-info .meal-price {
+    padding-top: .6rem;
+    font-size: 1.2rem;
+}
