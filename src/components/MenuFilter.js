@@ -31,11 +31,11 @@ const MenuFilter = () => {
           <div className='menu-section'>
             <div className='menu-items'>
             {items.map((item) => {
-              const {id, image, name, price, description } = item
+              const {id, image, name, price, description, alt } = item
 
               return (
                 <div key={id}>
-                  <MenuItem img={image} name={name} price={price} description={description} />
+                  <MenuItem img={image} name={name} price={price} description={description} alt={name} />
                 </div>
                 )
             })}
