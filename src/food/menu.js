@@ -3,7 +3,7 @@
 const Menu = [
     {
         id: 1,
-        image: process.env.PUBLIC_URL + '/images/avotoast.PNG',
+        image: '/public/images/avotoast.PNG',
         name: 'Avocado Toast',
         category: 'breakfast',
         price: '10',
@@ -11,7 +11,7 @@ const Menu = [
     },
     {
         id: 2,
-        image: process.env.PUBLIC_URL + '/images/eggsb.PNG',
+        image: '/public/images/eggsb.PNG',
         name: 'Eggs Benedict',
         category: 'breakfast',
         price: '12',
@@ -19,7 +19,7 @@ const Menu = [
     },
     {
         id: 3,
-        image: process.env.PUBLIC_URL + '/images/oats.PNG',
+        image: '/public/images/oats.PNG',
         name: 'Oatmeal',
         category: 'breakfast',
         price: '8',
@@ -27,7 +27,7 @@ const Menu = [
     },
     {
         id: 4,
-        image: process.env.PUBLIC_URL + './images/pan.PNG',
+        image: '/public/images/pan.PNG',
         name: 'Pancakes',
         category: 'breakfast',
         price: '9',
@@ -35,7 +35,7 @@ const Menu = [
     },
     {
         id: 5,
-        image: process.env.PUBLIC_URL + './images/gsalad.PNG',
+        image: '/public/images/gsalad.PNG',
         name: 'Greek Salad',
         category: 'salad',
         price: '11',
@@ -43,7 +43,7 @@ const Menu = [
     },
     {
         id: 6,
-        image: process.env.PUBLIC_URL + './images/ssalad.PNG',
+        image: '/public/images/ssalad.PNG',
         name: 'Spring Salad',
         category: 'salad',
         price: '9',
@@ -51,7 +51,7 @@ const Menu = [
     },
     {
         id: 7,
-        image: process.env.PUBLIC_URL + './images/esalad.PNG',
+        image: '/public/images/esalad.PNG',
         name: 'Egg Salad',
         category: 'salad',
         price: '12',
@@ -59,7 +59,7 @@ const Menu = [
     },
     {
         id: 8,
-        image: process.env.PUBLIC_URL + './images/fchicken.PNG',
+        image: '/public/images/fchicken.PNG',
         name: 'Fried Chicken',
         category: 'main',
         price: '14',
@@ -67,7 +67,7 @@ const Menu = [
     },
     {
         id: 9,
-        image: process.env.PUBLIC_URL + './images/pork.PNG',
+        image: '/public/images/pork.PNG',
         name: 'Pork',
         category: 'main',
         price: '15',
@@ -75,7 +75,7 @@ const Menu = [
     },
     {
         id: 10,
-        image: process.env.PUBLIC_URL + './images/steak.PNG',
+        image: '/public/images/steak.PNG',
         name: 'Steak',
         category: 'main',
         price: '25',
@@ -83,7 +83,7 @@ const Menu = [
     },
     {
         id: 11,
-        image: process.env.PUBLIC_URL + './images/beef.PNG',
+        image: '/public/images/beef.PNG',
         name: 'Beef',
         category: 'main',
         price: '22',
@@ -91,7 +91,7 @@ const Menu = [
     },
     {
         id: 12,
-        image: process.env.PUBLIC_URL + './images/brownie.PNG',
+        image: '/public/images/brownie.PNG',
         name: 'Brownie',
         category: 'dessert',
         price: '5',
@@ -99,7 +99,7 @@ const Menu = [
     },
     {
         id: 13,
-        image: process.env.PUBLIC_URL + './images/waffles.PNG',
+        image: '/public/images/waffles.PNG',
         name: 'Waffles',
         category: 'dessert',
         price: '7',
@@ -107,7 +107,7 @@ const Menu = [
     },
     {
         id: 14,
-        image: process.env.PUBLIC_URL + './images/opizza.PNG',
+        image: '/public/images/opizza.PNG',
         name: 'Olive Pizza',
         category: 'pizza',
         price: '10',
@@ -115,7 +115,7 @@ const Menu = [
     },
     {
         id: 15,
-        image: process.env.PUBLIC_URL + './images/mpizza.PNG',
+        image: '/public/images/mpizza.PNG',
         name: 'Mozzarella Pizza',
         category: 'pizza',
         price: '12',
@@ -123,7 +123,7 @@ const Menu = [
     },
     {
         id: 16,
-        image: process.env.PUBLIC_URL + './images/ppizza.PNG',
+        image: '/public/images/ppizza.PNG',
         name: 'Pepperoni Pizza',
         category: 'pizza',
         price: '13',
@@ -131,7 +131,7 @@ const Menu = [
     },
     {
         id: 17,
-        image: process.env.PUBLIC_URL + './images/pizza.PNG',
+        image: '/public/images/pizza.PNG',
         name: 'Prosciutto Pizza',
         category: 'pizza',
         price: '15',
@@ -139,7 +139,7 @@ const Menu = [
     },
     {
         id: 18,
-        image: process.env.PUBLIC_URL + './images/chsalad.PNG',
+        image: '/public/images/chsalad.PNG',
         name: 'Chickpea Salad',
         category: 'salad',
         price: '14',
@@ -147,7 +147,7 @@ const Menu = [
     },
     {
         id: 19,
-        image: process.env.PUBLIC_URL + './images/green.PNG',
+        image: '/public/images/green.PNG',
         name: 'Green Salad',
         category: 'salad',
         price: '10',
@@ -155,7 +155,7 @@ const Menu = [
     },
     {
         id: 20,
-        image: process.env.PUBLIC_URL + './images/margeritha.PNG',
+        image: '/public/images/margeritha.PNG',
         name: 'Margherita Pizza',
         category: 'pizza',
         price: '11',
@@ -163,7 +163,7 @@ const Menu = [
     },
     {
         id: 21,
-        image: process.env.PUBLIC_URL + './images/bcheesecake.PNG',
+        image: '/public/images/bcheesecake.PNG',
         name: 'Blueberry Cheesecake',
         category: 'dessert',
         price: '7',
@@ -171,14 +171,14 @@ const Menu = [
     },
     {
         id: 22,
-        image: process.env.PUBLIC_URL + './images/fruit.PNG',
+        image: '/public/images/fruit.PNG',
         name: 'Fruit Bowl',
         category: 'dessert',
         price: '9',
         description : 'Lorem ipsum doloret sit amet consectetur adipisicing elit.'
     },{
         id: 23,
-        image: process.env.PUBLIC_URL + './images/tart.PNG',
+        image: '/public/images/tart.PNG',
         name: 'Strawberry Tart',
         category: 'dessert',
         price: '6',
